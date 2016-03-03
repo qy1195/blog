@@ -1,87 +1,161 @@
-body {
-  font-family: 微软雅黑;
-  line-height: 25px;
-}
 main {
   width: 800px;
   margin: 0 auto;
+  line-height: 15px;
+  font-family: 微软雅黑;
+  font-size: 15px;
+  color: #000000;
   border: 1px solid rgb(51, 51, 51);
-  border-radius: 5px;
+  background-color: #ffffff;
 }
 .introduce {
   width: 798px;
   height: 250px;
   margin: 0 auto;
-  background-color: #0066cc;
+  color: #ffffff;
+  background-color: #3498db;
+  border-bottom: 1px solid #ffffff;
   float: right;
 }
 .myself {
   margin-left: 150px;
-  padding: -10px 0px;
 }
-img {
+.image1 {
   margin-left: 150px;
   margin-right: 50px;
-  border-radius: 70px;
   width: 140px;
   height: 140px;
+  border: solid #ffffff;
+  border-radius: 50%;
 }
 .contact {
-  font-size: 18px;
-  width: 300px;
-  margin-right: 100px;
+  width: 350px;
+  margin-right: 80px;
+  font-size: 16px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
   float: right;
 }
-article {
-  clear: both;
+.message {
+  margin-left: 40px;
+}
+.content-row {
+  width: 798px;
   margin-left: 150px;
-  width: 800px;
+  clear: both;
 }
 .purpose {
-  padding-top: 30px;
-  font-size: 20.8px;
+  padding: 30px 0 5px;
   font-weight: bold;
-}
-p {
-  font-size: 15px;
 }
 .education {
-  font-size: 20.8px;
+  padding: 15px 0 5px;
   font-weight: bold;
 }
+.edu {
+  margin-left: 15px;
+}
 .job {
-  font-size: 20.8px;
+  padding: 15px 0 0;
+  font-weight: bold;
+}
+.experience {
+  padding-top: 15px;
+}
+.company1 {
+  font-size: 16px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.company2 {
+  font-size: 16px;
+  margin-left: 15px;
   font-weight: bold;
 }
 .project {
-  text-align: left;
   width: 400px;
-  margin-left: 100px;
+  margin-left: 140px;
   line-height: 25px;
 }
-ol {
-  margin: 0 10px;
-  padding: 0 10px;
+.work {
+  padding-left: 25px;
+  margin: 0;
 }
 .skills {
-  font-size: 20.8px;
+  padding: 15px 0 5px;
   font-weight: bold;
 }
-footer {
+.knowledge {
   margin-left: 150px;
 }
-.skill {
-  width: 100px;
-  height: 100px;
-  margin-top: 20px;
-  background-color: #0099cc;
-  border: 1px;
-  text-align: center;
+.skill1 {
+  width: 80px;
+  height: 80px;
+  background-color: #6cdb9b;
+  border-radius: 50%;
   font-size: 20px;
-  border-radius: 50px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 25px;
+  padding-top: 28px;
+  padding-left: 2px;
   display: inline-block;
 }
-span {
-  font-size: 19px;
-  vertical-align: middle;
+.skill2 {
+  width: 80px;
+  height: 80px;
+  background-color: #b98acc;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 25px;
+  padding-top: 28px;
+  padding-left: 2px;
+  display: inline-block;
+}
+.skill3 {
+  width: 80px;
+  height: 80px;
+  background-color: #71b7e6;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 25px;
+  padding-top: 28px;
+  padding-left: 2px;
+  display: inline-block;
+}
+.skill4 {
+  width: 80px;
+  height: 80px;
+  background-color: #5ed0ba;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 25px;
+  padding-top: 28px;
+  padding-left: 2px;
+  display: inline-block;
+}
+.skill5 {
+  width: 80px;
+  height: 80px;
+  background-color: #f0b078;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 25px;
+  padding-top: 28px;
+  padding-left: 2px;
+  display: inline-block;
+}
+.use {
+  width: 80px;
+  text-align: center;
+  margin-right: 25px;
+  display: inline-block;
 }
